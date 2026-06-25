@@ -40,6 +40,13 @@ pod install
 
 - [Sentry-Cocoa](https://github.com/getsentry/sentry-cocoa) — underlying SDK
 
+## Version History
+
+### v0.1.0 (2026-06-25)
+
+- Initial release.
+- CocoaPods wrapper for Sentry-Cocoa source code.
+
 ## Author
 
 <aoiiiiyuki@outlook.com>
