@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="MMTToolForSentry.png" alt="MMTToolForSentry" width="200">
+  <img src="MMTToolForSentry.png" alt="MMTToolForSentry" width="100%">
 </p>
 
 # MMTToolForSentry
@@ -17,7 +17,7 @@ It repackages Sentry-Cocoa's source files as a Pod, enabling internal projects t
 ## Features
 
 - Wraps Sentry-Cocoa core source code into a consistent Pod integration experience
-- Supports iOS 10.0+
+- Supports iOS 13.0+
 - MIT License
 
 ## Installation
