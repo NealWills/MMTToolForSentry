@@ -1,0 +1,22 @@
+{
+  "name": "MMTToolForSentry",
+  "version": "0.1.0",
+  "summary": "A short description of MMTToolForSentry.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nealwills/MMTToolForSentry",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nealwills": "nealwills93@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nealwills/MMTToolForSentry.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MMTToolForSentry/Classes/**/*"
+}

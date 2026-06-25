@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'MMTToolForSentry'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MMTToolForSentry.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A CocoaPods wrapper for Sentry-Cocoa source code, enabling internal projects to integrate Sentry via Pod.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  MMTToolForSentry repackages Sentry-Cocoa source files as a CocoaPods pod, providing a consistent Pod integration experience
+  without directly importing Sentry-Cocoa source or relying on SPM/Carthage.
                        DESC
 
   s.homepage         = 'https://github.com/nealwills/MMTToolForSentry'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'nealwills' => 'nealwills93@gmail.com' }
+  s.author           = { 'aoiiiiyuki' => 'aoiiiiyuki@outlook.com' }
   s.source           = { :git => 'https://github.com/nealwills/MMTToolForSentry.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'MMTToolForSentry/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MMTToolForSentry' => ['MMTToolForSentry/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

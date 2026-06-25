@@ -1,0 +1,16 @@
+PODS:
+  - MMTToolForSentry (0.1.0)
+
+DEPENDENCIES:
+  - MMTToolForSentry (from `../`)
+
+EXTERNAL SOURCES:
+  MMTToolForSentry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMTToolForSentry: f5385438b34aaf36d5ecc389c390f45e99e11da0
+
+PODFILE CHECKSUM: e8649caafc8218ee3958c269183d8842cf6e25fa
+
+COCOAPODS: 1.16.2

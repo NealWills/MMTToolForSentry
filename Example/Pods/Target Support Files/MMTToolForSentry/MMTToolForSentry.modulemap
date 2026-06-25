@@ -1,0 +1,6 @@
+framework module MMTToolForSentry {
+  umbrella header "MMTToolForSentry-umbrella.h"
+
+  export *
+  module * { export * }
+}
